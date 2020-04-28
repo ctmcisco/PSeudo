@@ -1,3 +1,5 @@
+  - Added an example for re-running the prior command with Administrator privileges
+
 * PSeudo Version 2.0.1
   - Updated documentation to include the Write-Information -> Send-Information alias and use the correct alias and function names throughout
 

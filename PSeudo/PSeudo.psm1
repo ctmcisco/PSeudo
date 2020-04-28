@@ -652,6 +652,12 @@ function Invoke-AsAdministrator {
   output stream. Process objects are non-serializable, so the object returned
   by Invoke-AsAdministrator is a PSObject with the same properties.
 
+  .Example
+  Invoke-AsAdministrator (Get-History -Count 1).CommandLine
+
+  Re-run the prior command with Administrator privileges. Note that
+  CommandLine is a string, not a script block.
+
   .Link
   about_Pseudo
 
